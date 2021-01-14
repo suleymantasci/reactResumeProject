@@ -1,0 +1,135 @@
+/* menu */
+.img1 {
+  width: 100px;
+  height: 100px;
+}
+
+.menuContainer {
+  width: 200px;
+  height: 100vh;
+  text-align: center;
+  padding: 25px 5px 0 5px;
+}
+
+.myTitle {
+  margin: 10px 0 25px;
+  font-size: 1.5rem;
+}
+.myTitle a {
+  text-decoration: none;
+  color: #000000;
+}
+.myTitle a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+.link {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.menuItems .link:hover {
+  border-right: 2px solid #0099e5;
+}
+.menuItems a {
+  text-decoration: none;
+  color: #000000;
+}
+.menuItems a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.menuSocials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.menuSocials li {
+  padding-left: 15px;
+}
+.menuSocials li:first-child {
+  padding-left: 0;
+}
+.menuSocials a {
+  text-decoration: none;
+  color: #000000;
+}
+.menuSocials a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.icons {
+  color: #666666;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Mobile menu */
+.imgMobile {
+  width: 35px;
+  height: 35px;
+}
+
+.mobileMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mobileMenuContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 111111;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.mobileMenuContainer ._button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.menuMargin {
+  margin-bottom: 50px;
+}
+
+.myTitleMobile {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+.myTitleMobile a {
+  text-decoration: none;
+  color: #000000;
+}
+.myTitleMobile a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.toggleMenu {
+  width: 300px;
+  height: 100vh;
+  text-align: center;
+  padding: 25px 5px 0 5px;
+  position: fixed;
+  z-index: 1111;
+  background-color: white;
+  top: 50px;
+  left: 0;
+}

@@ -1,0 +1,268 @@
+/* App */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Helvetica, sans-serif;
+  }
+ 
+  html {
+    font-size: 14px;
+  }
+
+  p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+  }
+  
+.containerPage{
+    display: flex;
+    flex-direction: row;  
+}
+
+.display{
+    display: none;
+}
+
+.pageTitle{
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 3rem;
+}
+
+._container{
+    padding-top: 50px;
+}
+
+/* Home page */
+.imgContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.paddingZero{
+    padding: 0!important;
+}
+
+.imgHome{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.homeAboutContainer div{
+    padding: 4rem 6rem 1rem 6rem;
+}
+.homeAboutContainer h3{
+    font-size: 2.4rem;
+    padding:0.4rem 0 0.4rem 0;
+}
+.myTitles::before{
+    content:'Webmaster';
+	color: black;
+	animation: text infinite 6s;
+}
+@keyframes text {
+	
+	33%{content:'Front end Developer';}
+	66%{content:'React Developer';}
+	
+}
+.myJobContainer{
+    padding:  3rem 3rem 3rem 0;
+}
+._title{
+    margin-bottom: 2rem;
+}
+._titleİn{ 
+    font-size: 1.5rem;
+    border-bottom: 2px solid #0099e5;
+}
+
+.homeAboutContainer div button{
+    border:none;
+    border: 2px solid #0099e5;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px 0 5px 0;
+    outline:none;
+}
+.homeAboutContainer div button:hover{
+    
+    border: 2px solid #0099e5;
+    color: #ffffff;
+    background-color: #0099e5;
+    
+}
+
+.items{ 
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 2rem;
+}
+.items-svg{ 
+    
+    height: 3rem;
+    margin-right: 25px;
+
+ }
+
+/* About page */
+
+._right{
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 1140px) {
+    .homeAboutContainer div{
+        padding: 4rem 3rem 1rem 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 998px) {
+    .containerPage{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .homeAboutContainer div{
+        padding: 1rem 1rem 0 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+       
+    .homeAboutContainer div{
+        padding: 1rem 0 0 0;
+    }
+    .homeAboutContainer h3{
+        font-size: 2.5rem;
+    }
+    .myJobContainer{
+        padding: 3rem 0 3rem 0;
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+       
+    ._right{
+        text-align: left;
+    }
+  }
+
+
+
+  
+/*  Skilss */
+.skill-bar{
+    width: 100%;
+    height: 10px;
+    border: 1px #0099e5 solid;
+    border-radius: 10px;
+}
+.my-all-skill{
+    margin: 1rem 3rem 2rem 2rem;
+}
+.my-skill{
+    margin-bottom: 0.75rem;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-bar .skill-in-all{
+height: 4px;
+    background-color: #0099e5;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+/*Skills tek tek eklenecek */
+.skill-bar .skill-Html{
+    width: 99%;  
+}
+.skill-bar .skill-Css{
+    width: 95%;  
+}
+.skill-bar .skill-Javascript{
+    width: 90%;  
+}
+.skill-bar .skill-Bootstrap{
+    width: 90%;  
+}
+.skill-bar .skill-autocad{
+    width: 80%;  
+}
+.skill-bar .skill-mcexcel{
+    width: 90%;  
+}
+.skill-bar .skill-msproject{
+    width: 70%;  
+}
+.skill-bar .skill-photoshop{
+    width: 80%;  
+}
+.skill-bar .skill-mspremiere{
+    width: 70%;  
+}
+.skill-bar .skill-React{
+    width: 80%;  
+}
+
+/* İletişim */
+
+._card{
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 10px;
+    transition: all .3s;
+    
+}
+
+._card:hover{
+   box-shadow: 0px 2px 3px gray;
+   transform: translate(0px, -10px);    
+}
+
+.card-svg{
+    height: 5rem;
+    padding-bottom: 20px;
+}
+
+/* Portfolio */
+
+.portfolio-svg{
+    height: 10rem;
+    margin-bottom: 20px;
+ 
+}
+
+
+.portfolio-container{
+    text-align: center;
+    transition: all .3s;
+    margin-bottom: 4rem;
+ 
+}
+
+.portfolio-container a{
+    color: black;
+ 
+}
+.portfolio-container a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.portfolio-container:hover{
+    text-align: center;
+    transform: translate(0px, -10px);    
+}
