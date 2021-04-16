@@ -20,6 +20,18 @@ export default class About extends Component {
               </h4>
               <Row>
                 <Col className="_right" sm={4}>
+                  <h6>02/2021 - Devam Ediyor</h6>
+                  <p>Preon</p>
+                </Col>
+                <Col sm={8}>
+                  <h6>Frontend Developer</h6>
+                  <p>
+                    Preon şirketin geliştirmekte olduğu Bikobi projesinde frontend developer olarak görev almaktayım.
+                  </p>
+                </Col>
+              </Row>
+               <Row>
+                <Col className="_right" sm={4}>
                   <h6>03/2018 - 11/2018</h6>
                   <p>Baha Otomotiv ve Yedek Parça İnşaat Taahhüt</p>
                 </Col>
@@ -62,6 +74,106 @@ export default class About extends Component {
                 </Col>
               </Row>
             </Col>
+            <Col md={5}>
+              <h4 className="_title">
+                <span className="_titleİn">Kodlama Bilgileri</span>
+              </h4>
+              <div className="my-skill">
+                <span className="skill">
+                  <span>Html</span>
+                  <span>100%</span>
+                </span>
+                <div className="skill-bar">
+                  <div className="skill-in-all skill-Html"></div>
+                </div>
+              </div>
+              <div className="my-skill">
+                <span className="skill">
+                  <span>Css</span>
+                  <span>95%</span>
+                </span>
+                <div className="skill-bar">
+                  <div className="skill-in-all skill-Css"></div>
+                </div>
+              </div>
+              <div className="my-skill">
+                <span className="skill">
+                  <span>Javascript</span>
+                  <span>90%</span>
+                </span>
+                <div className="skill-bar">
+                  <div className="skill-in-all skill-Javascript"></div>
+                </div>
+              </div>
+              <div className="my-skill">
+                <span className="skill">
+                  <span>Jquery</span>
+                  <span>90%</span>
+                </span>
+                <div className="skill-bar">
+                  <div className="skill-in-all skill-Jquery"></div>
+                </div>
+              </div>
+              <div className="my-skill">
+                <span className="skill">
+                  <span>Bootstrap</span>
+                  <span>90%</span>
+                </span>
+                <div className="skill-bar">
+                  <div className="skill-in-all skill-Bootstrap"></div>
+                </div>
+              </div>
+              <div className="my-skill">
+                <span className="skill">
+                  <span>React.js - React Native</span>
+                  <span>80%</span>
+                </span>
+                <div className="skill-bar">
+                  <div className="skill-in-all skill-React"></div>
+                </div>
+              </div>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={7}>
+              <h4 className="_title">
+                <span className="_titleİn">Eğitim Bilgilerim</span>
+              </h4>
+
+              <Row>
+                <Col className="_right" sm={4}>
+                  <h6>2019 - Devam Ediyor</h6>
+                  <p>Önlisans</p>
+                </Col>
+                <Col sm={8}>
+                  <h6>Anadolu Üniversitesi</h6>
+                  <p>Sosyal Medya Yöneticiliği</p>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col className="_right" sm={4}>
+                  <h6>2014 - 2018</h6>
+                  <p>Lisans</p>
+                </Col>
+                <Col sm={8}>
+                  <h6>Nişantaşı Üniversitesi</h6>
+                  <p>İnşaat Mühendisliği</p>
+                </Col>
+              </Row>
+              <Row>
+                <Col className="_right" sm={4}>
+                  <h6>2009 - 2013</h6>
+                  <p>Lise</p>
+                </Col>
+                <Col sm={8}>
+                  <h6>Osman Ülkümen Anadolu Lisesi</h6>
+                  <p>Sayısal</p>
+                </Col>
+              </Row>
+            </Col>
+            
             <Col md={5}>
               <h4 className="_title">
                 <span className="_titleİn">Program Bilgileri</span>
@@ -110,96 +222,6 @@ export default class About extends Component {
                 </span>
                 <div className="skill-bar">
                   <div className="skill-in-all skill-mspremiere"></div>
-                </div>
-              </div>
-            </Col>
-          </Row>
-
-          <Row>
-            <Col md={7}>
-              <h4 className="_title">
-                <span className="_titleİn">Eğitim Bilgilerim</span>
-              </h4>
-
-              <Row>
-                <Col className="_right" sm={4}>
-                  <h6>2019 - Devam Ediyor</h6>
-                  <p>Önlisans</p>
-                </Col>
-                <Col sm={8}>
-                  <h6>Anadolu Üniversitesi</h6>
-                  <p>Sosyal Medya Yöneticiliği</p>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col className="_right" sm={4}>
-                  <h6>2014 - 2018</h6>
-                  <p>Lisans</p>
-                </Col>
-                <Col sm={8}>
-                  <h6>Nişantaşı Üniversitesi</h6>
-                  <p>İnşaat Mühendisliği</p>
-                </Col>
-              </Row>
-              <Row>
-                <Col className="_right" sm={4}>
-                  <h6>2009 - 2013</h6>
-                  <p>Lise</p>
-                </Col>
-                <Col sm={8}>
-                  <h6>Osman Ülkümen Anadolu Lisesi</h6>
-                  <p>Sayısal</p>
-                </Col>
-              </Row>
-            </Col>
-            <Col md={5}>
-              <h4 className="_title">
-                <span className="_titleİn">Kodlama Bilgileri</span>
-              </h4>
-              <div className="my-skill">
-                <span className="skill">
-                  <span>Html</span>
-                  <span>100%</span>
-                </span>
-                <div className="skill-bar">
-                  <div className="skill-in-all skill-Html"></div>
-                </div>
-              </div>
-              <div className="my-skill">
-                <span className="skill">
-                  <span>Css</span>
-                  <span>95%</span>
-                </span>
-                <div className="skill-bar">
-                  <div className="skill-in-all skill-Css"></div>
-                </div>
-              </div>
-              <div className="my-skill">
-                <span className="skill">
-                  <span>Javascript</span>
-                  <span>90%</span>
-                </span>
-                <div className="skill-bar">
-                  <div className="skill-in-all skill-Javascript"></div>
-                </div>
-              </div>
-              <div className="my-skill">
-                <span className="skill">
-                  <span>Bootstrap</span>
-                  <span>90%</span>
-                </span>
-                <div className="skill-bar">
-                  <div className="skill-in-all skill-Bootstrap"></div>
-                </div>
-              </div>
-              <div className="my-skill">
-                <span className="skill">
-                  <span>React.js - React Native</span>
-                  <span>80%</span>
-                </span>
-                <div className="skill-bar">
-                  <div className="skill-in-all skill-React"></div>
                 </div>
               </div>
             </Col>

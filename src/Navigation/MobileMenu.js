@@ -69,6 +69,11 @@ class SidebarMenu extends Component {
               Portföy
             </Link>
           </li>
+          {/* <li>
+            <Link onClick={() => this.props.closeMenu()} className="link" to="/blog">
+              Blog
+            </Link>
+          </li> */}
           <li>
             <Link onClick={() => this.props.closeMenu()} className="link" to="/contact">
               İletişim
