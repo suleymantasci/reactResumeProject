@@ -29,11 +29,11 @@ export default class Menu extends Component {
               Portföy
             </Link>
           </li>
-          {/* <li>
+          <li>
             <Link className="link" to="/blog">
               Blog
             </Link>
-          </li> */}
+          </li>
           <li>
             <Link className="link" to="/contact">
               İletişim

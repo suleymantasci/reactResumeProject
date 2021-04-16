@@ -41,9 +41,9 @@ export default class App extends Component {
           {isDesktop ? <Menu /> : <MobileMenu />}
           <AnimatePresence>
             <Switch>
-              {/* <Route path="/blog">
+              <Route path="/blog">
                 <Blog />
-              </Route> */}
+              </Route>
               <Route path="/about">
                 <About />
               </Route>
